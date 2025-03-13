@@ -8,7 +8,7 @@ workspace {
         marketplace = softwareSystem "Artemizer's Marketplace" {
 
             service = container "Client Service"{
-                technology "HTML"
+                technology "TypeScript + React"
             }
 
             server = container "Request Manager Server"{
@@ -27,13 +27,13 @@ workspace {
         }
 
         
-        client -> marketplace.service "Autorization" "HTTP request"
-        client -> marketplace.service "Create new products" "HTTP request"
-        client -> marketplace.service "Look all products" "HTTP request"
-        client -> marketplace.service "Add product in backet" "HTTP request"
-        client -> marketplace.service "Look client's backet" "HTTP request"
+        client -> marketplace.service "Autorization" "Browser"
+        client -> marketplace.service "Create new products" "Browser"
+        client -> marketplace.service "Look all products" "Browsert"
+        client -> marketplace.service "Add product in backet" "Browser"
+        client -> marketplace.service "Look client's backet" "Browser"
 
-        marketplace.service -> marketplace.server "Resend request to server" "Bash"
+        marketplace.service -> marketplace.server "Resend request to server" "Nginx"
 
         marketplace.server -> marketplace.db.users "Check existence of user's login" "SQL request"
         marketplace.server -> marketplace.db.users "Check existence of user' {name, surname}" "SQL request"
