@@ -59,7 +59,7 @@ workspace {
 
         container marketplace "c2" {
             include *
-            autoLayout lr
+            autoLayout
         }
 
         component marketplace.db "c3" {
