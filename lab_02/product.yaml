@@ -47,13 +47,13 @@ paths:
               schema:
                 $ref: '#/components/schemas/product'
         404:
-          description: Продукт не найден
+          description: Not found
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
         500:
-          description: Непредвиденная ошибка
+          description: Unexpected error
           content:
             application/json:
               schema:
@@ -93,13 +93,13 @@ paths:
               schema:
                 type: integer
         404:
-          description: Ошибка добавления продукта
+          description: Not found
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
         500:
-          description: Непредвиденная ошибка
+          description: Unexpected error
           content:
             application/json:
               schema:
@@ -146,13 +146,13 @@ paths:
               schema:
                 type: integer
         404:
-          description: Ошибка обновления продукта
+          description: Not found
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
         500:
-          description: Непредвиденная ошибка
+          description: Unexpected error
           content:
             application/json:
               schema:
@@ -168,7 +168,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/products'
         500:
-          description: Непредвиденная ошибка
+          description: Unexpected error
           content:
             application/json:
               schema:
