@@ -24,7 +24,7 @@ paths:
           type: string
       responses:
         '200':
-          description: Список пользователе с указанными именем и фамилией
+          description: Список пользователей с указанными именем и фамилией
           content:
             application/json:
               schema:
