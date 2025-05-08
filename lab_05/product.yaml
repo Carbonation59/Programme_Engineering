@@ -1,0 +1,217 @@
+openapi: '3.0.0'
+info:
+  version: '1.0.0'
+  title: 'Product Manager'
+  description: Сервис для работы с продуктами
+servers:
+  - url: http://localhost:8080
+paths:
+  /product/search:
+    get:
+      summary: Поиск продуктов по указанному названию
+      parameters:
+      - name: name
+        description: Название продукта
+        in: query
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Список продуктов с указанным названием
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/products'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /product:
+    get:
+      summary: Чтение информации о продукте
+      parameters:
+      - name: id
+        description: Уникальный идентификатор продукта
+        in: query
+        required: true
+        schema:
+          $ref: '#/components/schemas/product_id'
+      responses:
+        '200':
+          description: Найденный продукт
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/product'
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      summary: Добавление нового продукта
+      parameters:
+      - name: name
+        description: Название продукта
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: colour
+        description: Цвет продукта
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: weight
+        description: Вес продукта
+        in: query
+        required: true
+        schema:
+          type: integer
+      - name: price
+        description: Цена продукта
+        in: query
+        required: true
+        schema:
+          type: integer
+      responses:
+        '200':
+          description: Идентификатор добавленного продукта
+          content:
+            application/json:
+              schema:
+                type: integer
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    put:
+      summary: Обновление информации о продукте
+      parameters:
+      - name: id
+        description: Идентификатор продукта
+        in: query
+        required: true
+        schema:
+          type: integer
+          default: 1
+      - name: name
+        description: Название продукта
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: colour
+        description: Цвет продукта
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: weight
+        description: Вес продукта
+        in: query
+        required: true
+        schema:
+          type: integer
+      - name: price
+        description: Цена продукта
+        in: query
+        required: true
+        schema:
+          type: integer
+      responses:
+        '200':
+          description: Идентификатор обновлённого продукта
+          content:
+            application/json:
+              schema:
+                type: integer
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /products:
+    get:
+      summary: Получение списка всех продуктов
+      responses:
+        '200':
+          description: Список всех существующих продуктов
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/products'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    product_id:
+      description: Уникальный идентификатор продукта
+      type: integer
+    products:
+      type: array
+      items:
+        $ref: '#/components/schemas/product'
+    product:
+      type: object
+      required:
+        - id
+        - name
+        - colour
+        - weight
+        - price
+      properties:
+        id:
+          $ref: '#/components/schemas/product_id'
+        name:
+          type: string
+        colour:
+          type: string
+        weight:
+          type: integer
+        price:
+          type: integer
+    Error:
+      type: object
+      required:
+        - message
+      properties:
+        message:
+          description: Сообщение об ошибке
+          type: string
+  securitySchemes:
+      basicAuth:     
+        type: http
+        scheme: basic
+security:
+  - basicAuth: []
