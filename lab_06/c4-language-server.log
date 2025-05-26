@@ -1,0 +1,681 @@
+01:01:03.583 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Starting ProcessIO Connection
+01:01:03.588 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer started
+01:01:04.138 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+01:01:04.384 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+01:01:04.388 [main] INFO  d.s.c.ls.service.C4LanguageServer - getWorkspaceService
+01:01:04.415 [main] INFO  d.s.c.ls.service.C4LanguageServer - connect
+01:01:04.562 [pool-1-thread-1] INFO  d.s.c.ls.service.C4LanguageServer - initialize
+01:01:04.681 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didOpen file:///c%3A/Users/Artemizer/Desktop/2%20%D1%81%D0%B5%D0%BC.%20%D0%9F%D1%80%D0%BE%D0%B3.%20%D0%B8%D0%BD%D0%B6/%D0%9B%D0%B0%D0%B1%D0%B06/lab_06/workspace.dsl
+01:01:04.684 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+01:01:04.683 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 0
+01:01:04.685 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:04.848 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - createModel c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.851 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+01:01:04.877 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 1739174895, contextName WorkspaceDslContext
+01:01:04.878 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.880 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 5, contextId: 1134783516, contextName ModelDslContext
+01:01:04.880 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.882 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: client, modelId: 1 at linenumber: workspace.dsl, 6
+01:01:04.882 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.886 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: marketplace, modelId: 2 at linenumber: workspace.dsl, 8
+01:01:04.886 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.886 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 8, contextId: 1808208650, contextName SoftwareSystemDslContext
+01:01:04.887 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.889 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 3 at linenumber: workspace.dsl, 10
+01:01:04.890 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.890 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 10, contextId: 314279978, contextName ContainerDslContext
+01:01:04.891 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.898 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 12, contextId: 314279978, contextName ContainerDslContext
+01:01:04.900 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.904 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 4 at linenumber: workspace.dsl, 14
+01:01:04.905 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.905 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 14, contextId: 1412693174, contextName ContainerDslContext
+01:01:04.905 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.906 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 16, contextId: 1412693174, contextName ContainerDslContext
+01:01:04.906 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.906 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user_db, modelId: 5 at linenumber: workspace.dsl, 18
+01:01:04.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 18, contextId: 967710332, contextName ContainerDslContext
+01:01:04.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.910 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 6 at linenumber: workspace.dsl, 21
+01:01:04.910 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.911 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: baskets, modelId: 7 at linenumber: workspace.dsl, 23
+01:01:04.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 24, contextId: 967710332, contextName ContainerDslContext
+01:01:04.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cache_db, modelId: 8 at linenumber: workspace.dsl, 26
+01:01:04.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 26, contextId: 1406662357, contextName ContainerDslContext
+01:01:04.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 9 at linenumber: workspace.dsl, 29
+01:01:04.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 30, contextId: 1406662357, contextName ContainerDslContext
+01:01:04.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: product_db, modelId: 10 at linenumber: workspace.dsl, 32
+01:01:04.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 32, contextId: 1073239674, contextName ContainerDslContext
+01:01:04.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 11 at linenumber: workspace.dsl, 35
+01:01:04.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 36, contextId: 1073239674, contextName ContainerDslContext
+01:01:04.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: queue_db, modelId: 12 at linenumber: workspace.dsl, 38
+01:01:04.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 38, contextId: 1888539037, contextName ContainerDslContext
+01:01:04.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.920 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 40, contextId: 1888539037, contextName ContainerDslContext
+01:01:04.920 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.921 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: writer, modelId: 13 at linenumber: workspace.dsl, 42
+01:01:04.921 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.921 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 42, contextId: 1966628734, contextName ContainerDslContext
+01:01:04.921 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.922 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 44, contextId: 1966628734, contextName ContainerDslContext
+01:01:04.922 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.922 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 46, contextId: 1808208650, contextName SoftwareSystemDslContext
+01:01:04.923 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.928 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 49
+01:01:04.929 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:04.981 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:01:04.983 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:05.008 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 50
+01:01:05.008 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:05.009 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 51
+01:01:05.009 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:05.015 [ForkJoinPool.commonPool-worker-1] ERROR d.s.c.l.i.InterceptParserAspect - Cannot intercept parsed Relationship for execution(com.structurizr.model.Relationship com.structurizr.dsl.ExplicitRelationshipParser.parse(com.structurizr.dsl.DslContext, com.structurizr.dsl.Tokens)): The destination element "marketplace.baskets" does not exist
+01:01:05.015 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Rethrow exception The destination element "marketplace.baskets" does not exist
+01:01:05.025 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.ls.model.C4DocumentManager - ParserException The destination element "marketplace.baskets" does not exist at line 52 of c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl: client -> marketplace.baskets "Add product in basket" "HTTP request"
+01:01:05.029 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Artemizer's Marketplace
+01:01:05.030 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid false
+01:01:05.030 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+01:01:05.031 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:05.031 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:05.031 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:05.031 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:05.166 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+01:01:05.167 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:05.168 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:05.168 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:06.784 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:01:06.784 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:06.784 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:06.785 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:07.250 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:01:07.250 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:07.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:07.250 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:27.262 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:27.263 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:27.263 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:27.263 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:27.307 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:27.307 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:27.307 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:27.307 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:27.390 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:27.390 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:27.391 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:27.391 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:27.489 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:27.489 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:27.489 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:27.490 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:29.265 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:29.266 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:29.266 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.266 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:29.443 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:29.443 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:29.444 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.444 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:29.459 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didChange file:///c%3A/Users/Artemizer/Desktop/2%20%D1%81%D0%B5%D0%BC.%20%D0%9F%D1%80%D0%BE%D0%B3.%20%D0%B8%D0%BD%D0%B6/%D0%9B%D0%B0%D0%B1%D0%B06/lab_06/workspace.dsl
+01:01:29.460 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 1
+01:01:29.460 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - createModel c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.462 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+01:01:29.463 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 590213540, contextName WorkspaceDslContext
+01:01:29.463 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.464 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 5, contextId: 847721287, contextName ModelDslContext
+01:01:29.464 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.465 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: client, modelId: 1 at linenumber: workspace.dsl, 6
+01:01:29.465 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.465 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:29.465 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:29.465 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: marketplace, modelId: 2 at linenumber: workspace.dsl, 8
+01:01:29.466 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.466 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 8, contextId: 1424499189, contextName SoftwareSystemDslContext
+01:01:29.466 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:29.466 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:29.466 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:29.466 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.467 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:29.467 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 3 at linenumber: workspace.dsl, 10
+01:01:29.467 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.467 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 10, contextId: 2098005044, contextName ContainerDslContext
+01:01:29.467 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.468 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 12, contextId: 2098005044, contextName ContainerDslContext
+01:01:29.468 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.469 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 4 at linenumber: workspace.dsl, 14
+01:01:29.469 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.470 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 14, contextId: 836860640, contextName ContainerDslContext
+01:01:29.470 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.470 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 16, contextId: 836860640, contextName ContainerDslContext
+01:01:29.471 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.471 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user_db, modelId: 5 at linenumber: workspace.dsl, 18
+01:01:29.472 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.472 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 18, contextId: 989293200, contextName ContainerDslContext
+01:01:29.472 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.472 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:29.473 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 6 at linenumber: workspace.dsl, 21
+01:01:29.473 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.473 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:29.473 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: baskets, modelId: 7 at linenumber: workspace.dsl, 23
+01:01:29.473 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.474 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 24, contextId: 989293200, contextName ContainerDslContext
+01:01:29.474 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.474 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cache_db, modelId: 8 at linenumber: workspace.dsl, 26
+01:01:29.474 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.474 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 26, contextId: 797246386, contextName ContainerDslContext
+01:01:29.474 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.475 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 9 at linenumber: workspace.dsl, 29
+01:01:29.475 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.475 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 30, contextId: 797246386, contextName ContainerDslContext
+01:01:29.475 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.476 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: product_db, modelId: 10 at linenumber: workspace.dsl, 32
+01:01:29.476 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.476 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 32, contextId: 985439954, contextName ContainerDslContext
+01:01:29.476 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.477 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 11 at linenumber: workspace.dsl, 35
+01:01:29.477 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.477 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 36, contextId: 985439954, contextName ContainerDslContext
+01:01:29.477 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.478 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: queue_db, modelId: 12 at linenumber: workspace.dsl, 38
+01:01:29.480 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.481 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 38, contextId: 11584799, contextName ContainerDslContext
+01:01:29.482 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.483 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 40, contextId: 11584799, contextName ContainerDslContext
+01:01:29.484 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.486 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: writer, modelId: 13 at linenumber: workspace.dsl, 42
+01:01:29.486 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.487 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 42, contextId: 26385523, contextName ContainerDslContext
+01:01:29.488 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.489 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 44, contextId: 26385523, contextName ContainerDslContext
+01:01:29.489 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.489 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 46, contextId: 1424499189, contextName SoftwareSystemDslContext
+01:01:29.489 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.490 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 49
+01:01:29.490 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.491 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 50
+01:01:29.491 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.491 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 51
+01:01:29.491 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.492 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 52
+01:01:29.492 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.492 [ForkJoinPool.commonPool-worker-1] ERROR d.s.c.l.i.InterceptParserAspect - Cannot intercept parsed Relationship for execution(com.structurizr.model.Relationship com.structurizr.dsl.ExplicitRelationshipParser.parse(com.structurizr.dsl.DslContext, com.structurizr.dsl.Tokens)): The destination element "marketplace.baskets" does not exist
+01:01:29.492 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Rethrow exception The destination element "marketplace.baskets" does not exist
+01:01:29.492 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.ls.model.C4DocumentManager - ParserException The destination element "marketplace.baskets" does not exist at line 53 of c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl: client -> marketplace.baskets "Look client's basket" "HTTP request"
+01:01:29.493 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Artemizer's Marketplace
+01:01:29.493 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid false
+01:01:29.493 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+01:01:29.494 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.494 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.494 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:29.494 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:29.494 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.494 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:29.494 [ForkJoinPool.commonPool-worker-3] ERROR d.s.c.l.s.C4TextDocumentService - textDecorations == null
+01:01:29.494 [ForkJoinPool.commonPool-worker-2] ERROR d.s.c.l.s.C4TextDocumentService - textDecorations == null
+01:01:29.720 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:01:29.721 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:29.721 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.721 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:29.758 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+01:01:29.759 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:29.759 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:29.759 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:30.468 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+01:01:30.468 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:30.469 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:30.469 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:30.517 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:30.517 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:30.518 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:30.518 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:30.518 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:30.519 [ForkJoinPool.commonPool-worker-3] ERROR d.s.c.l.s.C4TextDocumentService - textDecorations == null
+01:01:30.524 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:30.524 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:30.525 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:30.525 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:30.525 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:30.525 [ForkJoinPool.commonPool-worker-3] ERROR d.s.c.l.s.C4TextDocumentService - textDecorations == null
+01:01:30.526 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didSave file:///c%3A/Users/Artemizer/Desktop/2%20%D1%81%D0%B5%D0%BC.%20%D0%9F%D1%80%D0%BE%D0%B3.%20%D0%B8%D0%BD%D0%B6/%D0%9B%D0%B0%D0%B1%D0%B06/lab_06/workspace.dsl
+01:01:30.843 [pool-1-thread-1] INFO  d.s.c.ls.service.C4WorkspaceService - didChangeWatchedFiles
+01:01:31.158 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:31.159 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:31.159 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.159 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:31.272 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didChange file:///c%3A/Users/Artemizer/Desktop/2%20%D1%81%D0%B5%D0%BC.%20%D0%9F%D1%80%D0%BE%D0%B3.%20%D0%B8%D0%BD%D0%B6/%D0%9B%D0%B0%D0%B1%D0%B06/lab_06/workspace.dsl
+01:01:31.272 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 2
+01:01:31.272 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:31.272 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:31.273 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - createModel c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.273 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:31.273 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:31.273 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:31.273 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+01:01:31.273 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:31.274 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 1913552291, contextName WorkspaceDslContext
+01:01:31.275 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.275 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 5, contextId: 759878171, contextName ModelDslContext
+01:01:31.275 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.276 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: client, modelId: 1 at linenumber: workspace.dsl, 6
+01:01:31.276 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.276 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: marketplace, modelId: 2 at linenumber: workspace.dsl, 8
+01:01:31.276 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.276 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 8, contextId: 1949141201, contextName SoftwareSystemDslContext
+01:01:31.276 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.277 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 3 at linenumber: workspace.dsl, 10
+01:01:31.277 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.277 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 10, contextId: 2063322641, contextName ContainerDslContext
+01:01:31.277 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.277 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 12, contextId: 2063322641, contextName ContainerDslContext
+01:01:31.277 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.278 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 4 at linenumber: workspace.dsl, 14
+01:01:31.278 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.278 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 14, contextId: 2073646984, contextName ContainerDslContext
+01:01:31.278 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.278 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 16, contextId: 2073646984, contextName ContainerDslContext
+01:01:31.278 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.279 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user_db, modelId: 5 at linenumber: workspace.dsl, 18
+01:01:31.279 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.279 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 18, contextId: 3705066, contextName ContainerDslContext
+01:01:31.279 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.279 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 6 at linenumber: workspace.dsl, 21
+01:01:31.279 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.280 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: baskets, modelId: 7 at linenumber: workspace.dsl, 23
+01:01:31.280 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.280 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 24, contextId: 3705066, contextName ContainerDslContext
+01:01:31.280 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.280 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cache_db, modelId: 8 at linenumber: workspace.dsl, 26
+01:01:31.280 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.281 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 26, contextId: 407626556, contextName ContainerDslContext
+01:01:31.281 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.281 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 9 at linenumber: workspace.dsl, 29
+01:01:31.281 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.281 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 30, contextId: 407626556, contextName ContainerDslContext
+01:01:31.281 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.282 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: product_db, modelId: 10 at linenumber: workspace.dsl, 32
+01:01:31.282 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.282 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 32, contextId: 1021586786, contextName ContainerDslContext
+01:01:31.282 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.283 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 11 at linenumber: workspace.dsl, 35
+01:01:31.283 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.283 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:31.283 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 36, contextId: 1021586786, contextName ContainerDslContext
+01:01:31.283 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.284 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: queue_db, modelId: 12 at linenumber: workspace.dsl, 38
+01:01:31.284 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.284 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 38, contextId: 225450081, contextName ContainerDslContext
+01:01:31.284 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.284 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:31.284 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 40, contextId: 225450081, contextName ContainerDslContext
+01:01:31.284 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.285 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: writer, modelId: 13 at linenumber: workspace.dsl, 42
+01:01:31.285 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.296 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 42, contextId: 1238085373, contextName ContainerDslContext
+01:01:31.296 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.296 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 44, contextId: 1238085373, contextName ContainerDslContext
+01:01:31.296 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 46, contextId: 1949141201, contextName SoftwareSystemDslContext
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 49
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 50
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 51
+01:01:31.297 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.298 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 52
+01:01:31.298 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.298 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 53
+01:01:31.298 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.299 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 56
+01:01:31.299 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.300 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 57
+01:01:31.300 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.300 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 58
+01:01:31.300 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.300 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 59
+01:01:31.300 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.301 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->9, identifier: null, at linenumber: workspace.dsl, 60
+01:01:31.301 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.302 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->12, identifier: null, at linenumber: workspace.dsl, 61
+01:01:31.302 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.302 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 13->12, identifier: null, at linenumber: workspace.dsl, 62
+01:01:31.303 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.303 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 13->11, identifier: null, at linenumber: workspace.dsl, 63
+01:01:31.304 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.304 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->11, identifier: null, at linenumber: workspace.dsl, 64
+01:01:31.305 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.306 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->11, identifier: null, at linenumber: workspace.dsl, 65
+01:01:31.306 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.307 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->7, identifier: null, at linenumber: workspace.dsl, 66
+01:01:31.307 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.308 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->7, identifier: null, at linenumber: workspace.dsl, 67
+01:01:31.308 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.308 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 70, contextId: 759878171, contextName ModelDslContext
+01:01:31.308 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.308 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 72, contextId: 323765631, contextName ViewsDslContext
+01:01:31.308 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.326 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: context at linenumber workspace.dsl, 75
+01:01:31.326 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.326 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 75, contextId: 59777605, contextName SystemContextViewDslContext
+01:01:31.326 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.336 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 78, contextId: 59777605, contextName SystemContextViewDslContext
+01:01:31.337 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.339 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c2 at linenumber workspace.dsl, 80
+01:01:31.339 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.339 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 80, contextId: 504611188, contextName ContainerViewDslContext
+01:01:31.339 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.346 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 83, contextId: 504611188, contextName ContainerViewDslContext
+01:01:31.346 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.349 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c3 at linenumber workspace.dsl, 85
+01:01:31.349 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.349 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 85, contextId: 408267544, contextName ComponentViewDslContext
+01:01:31.349 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.351 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 88, contextId: 408267544, contextName ComponentViewDslContext
+01:01:31.351 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.358 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: SampleOfWorking at linenumber workspace.dsl, 90
+01:01:31.358 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.358 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 90, contextId: 449296350, contextName DynamicViewDslContext
+01:01:31.358 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.361 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 94, contextId: 449296350, contextName DynamicViewDslContext
+01:01:31.361 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.362 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 95, contextId: 323765631, contextName ViewsDslContext
+01:01:31.362 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.362 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 96, contextId: 1913552291, contextName WorkspaceDslContext
+01:01:31.362 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.362 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing finished
+01:01:31.363 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Artemizer's Marketplace
+01:01:31.363 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid true
+01:01:31.363 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+01:01:31.363 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.363 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.364 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:31.364 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:31.364 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider - calcDefinitions for line 53
+01:01:31.364 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.364 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:31.372 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider - Found referenced element in line 6 for usage in line 52
+01:01:31.372 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider -     Details: client
+01:01:31.374 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider -     Cursor 31 out of range [8, 14]
+01:01:31.376 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider - Found referenced element in line 10 for usage in line 52
+01:01:31.376 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider -     Details: users
+01:01:31.376 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider -     Cursor 31 within range [30, 35]
+01:01:31.376 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4DefinitionProvider -     Reference Found at linenumber 9, in range [12, 17]
+01:01:31.423 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:31.426 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:01:31.426 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:31.426 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.426 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:31.426 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4DefinitionProvider - calcDefinitions for line 51
+01:01:31.427 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4DefinitionProvider - Found referenced element in line 6 for usage in line 50
+01:01:31.427 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4DefinitionProvider -     Details: client
+01:01:31.427 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4DefinitionProvider -     Cursor 41 out of range [8, 14]
+01:01:31.427 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4DefinitionProvider - Found referenced element in line 14 for usage in line 50
+01:01:31.427 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4DefinitionProvider -     Details: products
+01:01:31.427 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4DefinitionProvider -     Cursor 41 out of range [30, 38]
+01:01:31.524 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:01:31.524 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:31.524 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.524 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:31.575 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+01:01:31.575 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:31.575 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:31.575 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:31.587 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [48, 8, 6, 14, 0, 0, 22, 5, 14, 0, 1, 8, 6, 14, 0, 0, 22, 8, 14, 0, 1, 8, 6, 14, 0, 0, 22, 8, 14, 0, 1, 8, 6, 14, 0, 0, 22, 5, 14, 0, 1, 8, 6, 14, 0, 0, 22, 5, 14, 0, 3, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 8, 14, 0, 0, 24, 8, 14, 0, 1, 20, 6, 14, 0, 0, 22, 8, 14, 0, 1, 20, 6, 14, 0, 0, 33, 8, 14, 0, 1, 20, 8, 14, 0, 0, 0, 8, 14, 0, 1, 20, 8, 14, 0, 0, 0, 8, 14, 0, 1, 20, 5, 14, 0, 0, 29, 7, 14, 0, 1, 20, 5, 14, 0, 0, 29, 7, 14, 0, 8, 22, 11, 14, 0, 5, 18, 11, 14, 0, 5, 30, 7, 14, 0, 5, 16, 11, 14, 0]
+01:01:32.278 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+01:01:32.278 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:32.278 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:32.278 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:32.279 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/c:/Users/Artemizer/Desktop/2%20сем.%20Прог.%20инж/Лаба6/lab_06/workspace.dsl
+01:01:32.279 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+01:01:32.317 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:32.317 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:01:32.317 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:32.317 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didSave file:///c%3A/Users/Artemizer/Desktop/2%20%D1%81%D0%B5%D0%BC.%20%D0%9F%D1%80%D0%BE%D0%B3.%20%D0%B8%D0%BD%D0%B6/%D0%9B%D0%B0%D0%B1%D0%B06/lab_06/workspace.dsl
+01:01:32.317 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:01:32.317 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:32.317 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:01:32.317 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:32.317 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:01:32.317 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:32.317 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:01:32.655 [pool-1-thread-1] INFO  d.s.c.ls.service.C4WorkspaceService - didChangeWatchedFiles
+01:02:14.458 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:02:14.458 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:02:14.460 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:02:14.460 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:02:14.460 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:02:14.739 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:02:14.740 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:02:14.740 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:02:14.740 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:02:25.063 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:02:25.063 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:02:25.063 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:02:25.063 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:02:25.064 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:02:25.334 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:02:25.334 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:02:25.334 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:02:25.335 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:02:31.190 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:02:31.190 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:02:31.191 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:02:31.191 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:02:31.191 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:02:31.463 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:02:31.464 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:02:31.464 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:02:31.464 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:03:19.977 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:03:19.977 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:03:19.978 [ForkJoinPool.commonPool-worker-4] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:03:19.978 [ForkJoinPool.commonPool-worker-4] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:16:01.988 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didClose file:///c%3A/Users/Artemizer/Desktop/2%20%D1%81%D0%B5%D0%BC.%20%D0%9F%D1%80%D0%BE%D0%B3.%20%D0%B8%D0%BD%D0%B6/%D0%9B%D0%B0%D0%B1%D0%B06/lab_06/workspace.dsl
+01:16:40.106 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didOpen file:///c%3A/Users/Artemizer/Desktop/2%20%D1%81%D0%B5%D0%BC.%20%D0%9F%D1%80%D0%BE%D0%B3.%20%D0%B8%D0%BD%D0%B6/%D0%9B%D0%B0%D0%B1%D0%B06/lab_06/workspace.dsl
+01:16:40.107 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 3
+01:16:40.108 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - createModel c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.108 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+01:16:40.109 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 1459811733, contextName WorkspaceDslContext
+01:16:40.109 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.110 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 5, contextId: 1506083077, contextName ModelDslContext
+01:16:40.110 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.110 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: client, modelId: 1 at linenumber: workspace.dsl, 6
+01:16:40.111 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.111 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: marketplace, modelId: 2 at linenumber: workspace.dsl, 8
+01:16:40.111 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 8, contextId: 1576705765, contextName SoftwareSystemDslContext
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 3 at linenumber: workspace.dsl, 10
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 10, contextId: 418908990, contextName ContainerDslContext
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 12, contextId: 418908990, contextName ContainerDslContext
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 4 at linenumber: workspace.dsl, 14
+01:16:40.112 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 14, contextId: 1477897193, contextName ContainerDslContext
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 16, contextId: 1477897193, contextName ContainerDslContext
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user_db, modelId: 5 at linenumber: workspace.dsl, 18
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 18, contextId: 690623687, contextName ContainerDslContext
+01:16:40.113 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.114 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 6 at linenumber: workspace.dsl, 21
+01:16:40.114 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.114 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+01:16:40.114 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: baskets, modelId: 7 at linenumber: workspace.dsl, 23
+01:16:40.114 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.114 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 24, contextId: 690623687, contextName ContainerDslContext
+01:16:40.114 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cache_db, modelId: 8 at linenumber: workspace.dsl, 26
+01:16:40.115 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 26, contextId: 539929265, contextName ContainerDslContext
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: users, modelId: 9 at linenumber: workspace.dsl, 29
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 30, contextId: 539929265, contextName ContainerDslContext
+01:16:40.115 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.116 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: product_db, modelId: 10 at linenumber: workspace.dsl, 32
+01:16:40.116 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.116 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 32, contextId: 2027418737, contextName ContainerDslContext
+01:16:40.116 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.117 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: products, modelId: 11 at linenumber: workspace.dsl, 35
+01:16:40.117 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.117 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 36, contextId: 2027418737, contextName ContainerDslContext
+01:16:40.117 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.117 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: queue_db, modelId: 12 at linenumber: workspace.dsl, 38
+01:16:40.117 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 38, contextId: 401674529, contextName ContainerDslContext
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 40, contextId: 401674529, contextName ContainerDslContext
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: writer, modelId: 13 at linenumber: workspace.dsl, 42
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 42, contextId: 1845801780, contextName ContainerDslContext
+01:16:40.118 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.119 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 44, contextId: 1845801780, contextName ContainerDslContext
+01:16:40.119 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.119 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 46, contextId: 1576705765, contextName SoftwareSystemDslContext
+01:16:40.119 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.120 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 49
+01:16:40.120 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.120 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 50
+01:16:40.120 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.121 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->4, identifier: null, at linenumber: workspace.dsl, 51
+01:16:40.121 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.121 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 52
+01:16:40.121 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.122 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->3, identifier: null, at linenumber: workspace.dsl, 53
+01:16:40.122 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.122 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 56
+01:16:40.122 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.123 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 57
+01:16:40.123 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.123 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 58
+01:16:40.123 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.124 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: workspace.dsl, 59
+01:16:40.124 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.124 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->9, identifier: null, at linenumber: workspace.dsl, 60
+01:16:40.124 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.125 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->12, identifier: null, at linenumber: workspace.dsl, 61
+01:16:40.125 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.125 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 13->12, identifier: null, at linenumber: workspace.dsl, 62
+01:16:40.125 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.126 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 13->11, identifier: null, at linenumber: workspace.dsl, 63
+01:16:40.126 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.126 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->11, identifier: null, at linenumber: workspace.dsl, 64
+01:16:40.126 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.127 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->11, identifier: null, at linenumber: workspace.dsl, 65
+01:16:40.127 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.127 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->7, identifier: null, at linenumber: workspace.dsl, 66
+01:16:40.127 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.128 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->7, identifier: null, at linenumber: workspace.dsl, 67
+01:16:40.128 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.128 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:16:40.128 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:16:40.128 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 70, contextId: 1506083077, contextName ModelDslContext
+01:16:40.128 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.128 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:16:40.129 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 72, contextId: 992667495, contextName ViewsDslContext
+01:16:40.129 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.129 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: context at linenumber workspace.dsl, 75
+01:16:40.129 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.130 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 75, contextId: 1669240484, contextName SystemContextViewDslContext
+01:16:40.130 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.131 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 78, contextId: 1669240484, contextName SystemContextViewDslContext
+01:16:40.131 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.131 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c2 at linenumber workspace.dsl, 80
+01:16:40.131 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.131 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 80, contextId: 1617161649, contextName ContainerViewDslContext
+01:16:40.131 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.132 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+01:16:40.132 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:16:40.136 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 83, contextId: 1617161649, contextName ContainerViewDslContext
+01:16:40.136 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.136 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: c3 at linenumber workspace.dsl, 85
+01:16:40.137 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.137 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 85, contextId: 1744662550, contextName ComponentViewDslContext
+01:16:40.137 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.138 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 88, contextId: 1744662550, contextName ComponentViewDslContext
+01:16:40.138 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.139 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: SampleOfWorking at linenumber workspace.dsl, 90
+01:16:40.139 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.139 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 90, contextId: 119782608, contextName DynamicViewDslContext
+01:16:40.139 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.140 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 94, contextId: 119782608, contextName DynamicViewDslContext
+01:16:40.140 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.140 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 95, contextId: 992667495, contextName ViewsDslContext
+01:16:40.140 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.140 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 96, contextId: 1459811733, contextName WorkspaceDslContext
+01:16:40.141 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.141 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing finished
+01:16:40.141 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Artemizer's Marketplace
+01:16:40.141 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid true
+01:16:40.141 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+01:16:40.141 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.141 [ForkJoinPool.commonPool-worker-7] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.142 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:16:40.142 [ForkJoinPool.commonPool-worker-7] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:16:40.142 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.142 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/c:/Users/Artemizer/Desktop/2%20сем.%20Прог.%20инж/Лаба6/lab_06/workspace.dsl
+01:16:40.142 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:16:40.142 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+01:16:40.145 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [48, 8, 6, 14, 0, 0, 22, 5, 14, 0, 1, 8, 6, 14, 0, 0, 22, 8, 14, 0, 1, 8, 6, 14, 0, 0, 22, 8, 14, 0, 1, 8, 6, 14, 0, 0, 22, 5, 14, 0, 1, 8, 6, 14, 0, 0, 22, 5, 14, 0, 3, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 5, 14, 0, 0, 0, 5, 14, 0, 1, 20, 8, 14, 0, 0, 24, 8, 14, 0, 1, 20, 6, 14, 0, 0, 22, 8, 14, 0, 1, 20, 6, 14, 0, 0, 33, 8, 14, 0, 1, 20, 8, 14, 0, 0, 0, 8, 14, 0, 1, 20, 8, 14, 0, 0, 0, 8, 14, 0, 1, 20, 5, 14, 0, 0, 29, 7, 14, 0, 1, 20, 5, 14, 0, 0, 29, 7, 14, 0, 8, 22, 11, 14, 0, 5, 18, 11, 14, 0, 5, 30, 7, 14, 0, 5, 16, 11, 14, 0]
+01:16:40.370 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:16:40.371 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:16:40.371 [ForkJoinPool.commonPool-worker-8] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:16:40.371 [ForkJoinPool.commonPool-worker-8] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:19:03.329 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+01:19:03.329 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+01:19:03.329 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:19:03.329 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:19:03.329 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:19:03.612 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:19:03.612 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:19:03.612 [ForkJoinPool.commonPool-worker-5] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:19:03.612 [ForkJoinPool.commonPool-worker-5] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:21:03.614 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:21:03.614 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:21:03.614 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:21:03.615 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:21:09.956 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+01:21:09.956 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:21:09.957 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:21:09.957 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:21:12.170 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:21:12.170 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:21:12.170 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:21:12.170 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:21:12.170 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4DefinitionProvider - calcDefinitions for line 90
+01:21:12.171 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4DefinitionProvider - Found referenced element in line 8 for usage in line 89
+01:21:12.171 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4DefinitionProvider -     Details: marketplace
+01:21:12.171 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4DefinitionProvider -     Cursor 68 out of range [16, 27]
+01:21:12.202 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:21:12.202 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:21:12.202 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:21:12.203 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:21:12.203 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4DefinitionProvider - calcDefinitions for line 92
+01:21:12.219 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:21:12.219 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:21:12.219 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:21:12.219 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:21:12.219 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4DefinitionProvider - calcDefinitions for line 92
+01:21:12.236 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - definition
+01:21:12.236 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+01:21:12.236 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artemizer\Desktop\2 сем. Прог. инж\Лаба6\lab_06\workspace.dsl
+01:21:12.236 [ForkJoinPool.commonPool-worker-6] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+01:21:12.236 [ForkJoinPool.commonPool-worker-6] DEBUG d.s.c.l.p.C4DefinitionProvider - calcDefinitions for line 93
+01:28:13.570 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer finished

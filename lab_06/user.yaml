@@ -1,0 +1,267 @@
+openapi: '3.0.0'
+info:
+  version: '1.0.0'
+  title: 'User Manager'
+  description: Сервис для работы с пользователями
+servers:
+  - url: http://localhost:8080
+paths:
+  /user/search:
+    get:
+      summary: Поиск пользователей по маске имени и фамилии
+      parameters:
+      - name: first_name
+        description: Имя пользователя
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: last_name
+        description: Фамилия пользователя
+        in: query
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Список пользователей с указанными именем и фамилией
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/users'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /auth:
+    get:
+      summary: Проверка аутентификации
+      responses:
+        '200':
+          description: User ID
+          content:
+            application/json:
+              schema:
+               type: string
+        '401':
+          description: Not authentication
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /user:
+    get:
+      summary: Чтение информации о пользователе
+      parameters:
+      - name: id
+        description: Уникальный идентификатор пользователя
+        in: query
+        required: true
+        schema:
+          $ref: '#/components/schemas/user_id'
+      responses:
+        '200':
+          description: Найденный пользователь
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'
+        '401':
+          description: Not authentication
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      summary: Добавление нового пользователя
+      parameters:
+      - name: first_name
+        description: Имя пользователя
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: last_name
+        description: Фамилия пользователя
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: email
+        description: email пользователя
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: login
+        description: login пользователя
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: password
+        description: Пароль пользователя
+        in: query
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Идентификатор добавленного пользователя
+          content:
+            application/json:
+              schema:
+                type: integer
+        '400':
+          description: Wrong parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /users:
+    get:
+      summary: Получение списка всех пользователей
+      responses:
+        '200':
+          description: Список всех существующих пользователей в базе
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/users'
+        '500':
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /user/basket:
+    get:
+      summary: Посмотреть содержимое корзины пользователя
+      parameters:
+      - name: user_id
+        description: Идентификатор пользователя
+        in: query
+        required: true
+        schema:
+          type: integer
+      responses:
+        '200':
+          description: Список продуктов, которые находятся в корзине
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/products'
+    post:
+      summary: Добавление продукта в корзину пользователя
+      parameters:
+      - name: user_id
+        description: Идентификатор пользователя
+        in: query
+        required: true
+        schema:
+          type: integer
+      - name: product_id
+        description: Идентификатор продукта
+        in: query
+        required: true
+        schema:
+          type: integer
+      responses:
+        '200':
+          description: Положительный ответ
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "Продукт добавлен в корзину"
+components:
+  schemas:
+    user_id:
+      description: Уникальный идентификатор пользователя
+      type: integer
+    users:
+      type: array
+      items:
+        $ref: '#/components/schemas/user'
+    user:
+      type: object
+      required:
+        - id
+        - first_name
+        - last_name
+        - email
+        - login
+        - password
+      properties:
+        id:
+          $ref: '#/components/schemas/user_id'
+        first_name:
+          type: string
+        last_name:
+          type: string
+        email:
+          type: string
+        login:
+          type: string
+        password:
+          type: string
+    product_id:
+      description: Уникальный идентификатор продукта
+      type: integer
+    products:
+      type: array
+      items:
+        $ref: '#/components/schemas/product'
+    product:
+      type: object
+      required:
+        - id
+        - name
+        - colour
+        - weight
+        - price
+      properties:
+        id:
+          $ref: '#/components/schemas/product_id'
+        name:
+          type: string
+        colour:
+          type: string
+        weight:
+          type: integer
+        price:
+          type: integer
+    Error:
+      type: object
+      required:
+        - message
+      properties:
+        message:
+          description: Сообщение об ошибке
+          type: string
+  securitySchemes:
+      basicAuth:     
+        type: http
+        scheme: basic
+security:
+  - basicAuth: []
